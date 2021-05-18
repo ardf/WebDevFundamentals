@@ -1,0 +1,142 @@
+body{
+    background: url(images/background-pattern.png);
+    width: 100%;
+    color:#000;
+}
+
+.navbar{
+    width: 100%;
+    border:rgb(49, 48, 48) ;
+    background: rgb(49, 48, 48);
+    height: 30px;
+}
+.navbar ul{
+    padding-left: 65% ;
+    line-height: 29px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 3px;
+}
+a{
+    color: rgb(25, 163, 209);
+}
+
+.header{
+    border: .5px solid rgb(38, 38, 71);
+    color: white;
+    height: 50px;
+    background: url(images/header-background.png);
+    line-height: 0px;
+}
+.nav2{
+    border: .5px solid lightgrey;
+    background: lightgrey;
+    height: 30px;
+}
+.nav2 ul{
+    padding-left: 15%;
+    line-height: 0px;
+}
+.header>h1{
+    padding-left: 15%;
+}
+.photo{
+    height: 150px;
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+.photo img{
+    display: block;
+    border: 1px solid grey;
+    padding: 4px;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 5%;
+}
+.photo p{
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.Pdetails,.Contacts,.sales{
+    display: block;
+    width: 69%;
+    margin: auto ;
+    margin-top: 20px;
+}
+.Pdetails .header, .Contacts .header, .sales .header {
+    line-height: 0px;
+    height: 40px;
+    padding-left: 10px;
+}
+.section{
+    border: 1px solid grey;
+    height: 120px;
+    padding-left: 10px;
+}
+.lhs{
+    color: rgb(88, 87, 87);
+    font-style: italic;
+}
+.editflag{
+    border: 1px solid grey;
+    height: 35px;
+    background: rgb(49, 48, 48);
+}
+.buttons{
+    position: relative;
+    right: 25px;
+    bottom: 10px;
+}
+.edit,.flag{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 3px 4px;
+    border-radius: 7px;
+    background: rgb(255, 255, 255);
+}
+.Contacts .section{
+    height: 60px;
+}
+.sales .section{
+    height: 350px;
+}
+.sales .section img{
+    display: block;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+footer{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border:rgb(49, 48, 48) ;
+    background: rgb(49, 48, 48);
+    height: 45px;
+    color: white
+}
+footer ul{
+    position: ;
+    top: 5px;
+    padding-left: 10px;
+    line-height: 15px;
+}
+footer span{
+    padding-left: 10px;
+    line-height: 0px;
+    position: relative;
+    bottom: 10px;
+}
+a:hover{
+    color: rgb(8, 60, 85);
+    background: yellow;
+}
