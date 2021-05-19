@@ -1,0 +1,83 @@
+body{
+    background: url(images/art-background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 150px;
+    width: 350px;
+    background: white;
+    margin-left: 120px;
+}
+header h1{
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 1.5cm;
+    letter-spacing: 2px;
+}
+header span{
+    padding-left: 20px;
+}
+.uc{
+    margin: 70px 120px;
+    height: 250px;
+    width: 450px;
+}
+.uc .semi{
+    height: 40px;
+    width: 100%;
+    background: rgba(255,255,255,0.65);
+}
+.uc .semi span{
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.8cm;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.uc .transparent{
+    height: 150px;
+    width: 100%;
+    background: rgba(255,255,255,0.4);
+}
+.uc .transparent #ourweb{
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+
+.black{
+    height: 40px;
+    width: 300px;
+    position: relative;
+    top: 50px;
+    left:20px;
+    background: rgba(0,0,0,0.4);
+}
+.black span{
+    font-size: 22px;
+    padding-left: 20px;
+    color: white;
+}
+.uc .white{
+    height: 60px;
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+}
+.white span{
+    margin-left: 20px;
+    position: relative;
+    top:20px;
+    border-bottom: 1px dotted #000;
+}
+ul{
+    margin-left: 140px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
