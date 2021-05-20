@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Share Your Travels</title>
+    <link rel="stylesheet" href="c4.css" />
+  </head>
+  <body>
+    <form method="GET" action="http://www.randyconnolly.com/tests/process.php">
+      <fieldset>
+        <legend>Photo Details</legend>
+        <table>
+          <tr>
+            <td colspan="2">
+              <label for="title">Title</label> <br />
+              <input type="text" name="title" id="title" /> <br />
+              <label for="description">Description</label> <br />
+              <textarea name="description" rows="7" cols="70"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="place">
+              <label for="continent">Continent</label> <br />
+              <select name="continent" id="continent">
+                <option>North America</option>
+                <option>Asia</option>
+                <option>Africa</option>
+                <option>Australia</option>
+                <option>Europe</option>
+                <option>South America</option>
+              </select>
+              <br />
+              <label for="country">Country</label> <br />
+              <select name="country" id="country">
+                <option>Canada</option>
+                <option>USA</option>
+                <option>India</option>
+                <option>China</option>
+                <option>Germany</option>
+                <option>South Africa</option>
+                <option>Russia</option>
+                <option>Afghanistan</option>
+                <option>Japan</option>
+              </select>
+              <br />
+              <label for="city">City</label> <br />
+              <select name="city" id="city">
+                <option>Calgary</option>
+                <option>Washington DC</option>
+                <option>Mumbai</option>
+                <option>Shanghai</option>
+                <option>Berlin</option>
+                <option>Johannesburg</option>
+                <option>Moscow</option>
+                <option>Kabul</option>
+                <option>Tokyo</option>
+              </select>
+            </td>
+            <td>
+              <div class="box1">
+                <label for="copyright">Copyright?</label> <br />
+                <input type="radio" name="copyright" value="1" /> All rights
+                reserved <br />
+                <input type="radio" name="copyright" value="2" /> Creative
+                Commons <br />
+              </div>
+              <div class="box2">
+                <label for="cc">Creative Common Types</label> <br />
+                <input type="checkbox" name="cc" /> Attributions <br />
+                <input type="checkbox" name="cc" /> Non-commercial <br />
+                <input type="checkbox" name="cc" /> No Derivative Works <br />
+                <input type="checkbox" name="cc" /> Share Alike
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <span id="license"
+                >I accept the software license
+                <input type="checkbox" name="accept" />
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="rate">Rate this photo:</label> <br />
+              <input type="number" name="rate" id="rate" value="2" /> <br />
+              <label for="color">Color Collection:</label> <br />
+              <input type="color" name="color" id="color" value="#ff0000" />
+            </td>
+            <td>
+              <div class="box3">
+                <label for="date"> Date Taken:</label> <br />
+                <input type="date" name="date" id="date" /> <br />
+                <label for="time">Time Taken:</label> <br />
+                <input type="time" name="time" id="time" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <span class="sub-res">
+                <input
+                  type="submit"
+                  value="Submit"
+                  id="submit"
+                  class="buttons"
+                />
+                <input type="reset" value="Clear Form" class="buttons" />
+              </span>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
