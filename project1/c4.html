@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="c4.css">
+    <title>Form Processing</title>
+</head>
+<body>
+    <table>
+        <caption>October 2014</caption>
+        <thead>
+            <tr>
+                <td>S</td>
+                <td>M</td>
+                <td>T</td>
+                <td>W</td>
+                <td>T</td>
+                <td>F</td>
+                <td>S</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3"></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td><a href="#">5</a></td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td><a href="#">12</a></td>
+                <td>13</td>
+                <td class="active">14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td><a href="#">19</a></td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td><a href="#">26</a></td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="prev">«Sep</td>
+                <td></td>
+                <td colspan="3" class="next">Nov»</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div class="box">
+        <form method="GET" action="http://www.randyconnolly.com/tests/process.php">
+            <fieldset>
+                <legend>Meeting Details</legend>
+                <label for="client_name">Client Name:</label>
+                <input type="text" placeholder="Enter name" name="client_name"> <br>
+
+                <label for="first_meet">First Meeting?</label>
+                <input type="checkbox" name="first_meet"><br>
+
+                <label for="client_type">Client Type:</label>
+                <input type="radio" name="client_type" value="School">School
+                <input type="radio" name="client_type" value="College">College
+                <input type="radio" name="client_type" value="University">University <br>
+
+                <label for="meet_date">Meeting Date:</label>
+                <input type="date" name="meet_date"> <br>
+
+                <input type="submit" value="Submit">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
