@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="c4.css" />
+    <title>My Art Store</title>
+  </head>
+  <body>
+    <form action="http://www.randyconnolly.com/tests/process.php" method="post">
+      <div class="box">
+        <input
+          class="content-start"
+          type="text"
+          placeholder="Search Tiles"
+          name="search"
+        />
+        <input class="content" type="submit" value="Search" />
+      </div>
+      <div class="box">
+        <select id="actionList" class="content-start" name="actions">
+          <option value="0">Actions</option>
+          <option value="1">Archive</option>
+          <option value="2">Delete</option>
+        </select>
+        <input class="content" type="button" value="Apply" />
+        <select id="genreList" class="content" name="filter">
+          <option value="0">Genre</option>
+          <option value="1">Baroque</option>
+          <option value="2">Renaissance</option>
+          <option value="3">Realism</option>
+        </select>
+        <input class="content" type="button" value="Filter" />
+      </div>
+      <div class="bigbox">
+          <table>
+              <caption>Paintings</caption>
+              <thead>
+                <tr>
+                   <!-- <th></th>
+                   <th></th> -->
+                   <th colspan="3" id="title">Title</th>
+                   <th id="artist">Artist</th>
+                   <th id="year">Year</th>
+                   <th colspan="2" id="genre">Genre</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td class="check"><input type="checkbox" name="index[0]" value="0"></td>
+                    <td class="image"><img src="images/c41.jpg" alt=""></td>
+                    <td class="title-cell">Death of Marat</td>
+                    <td class="artist-cell">David, Jacques-Louis </td>
+                    <td class="year-cell">1793</td>
+                    <td class="genre-cell">Romanticism</td>
+                    <td class="edit"><button><a href="#"><img src="images/edit16.png" alt="">Edit</a></button></td>
+                    
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name="index[1]" value="10"></td>
+                    <td class="image"><img src="images/c42.jpg" alt=""></td>
+                    <td class="title-cell">Portrait of Eleanor of Toledo</td>
+                    <td class="artist-cell">Bronzino, Agnolo </td>
+                    <td class="year-cell">1545</td>
+                    <td>Mannerism</td>
+                    <td class="edit"><button><a href="#"><img src="images/edit16.png" alt="">Edit</a></button></td>
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name="index[2]" value="20"></td>
+                    <td class="image"><img src="images/c43.jpg" alt=""></td>
+                    <td class="title-cell">Liberty Leading the People</td>
+                    <td class="artist-cell">Delacroix, Eugene</td>
+                    <td class="year-cell">1830</td>
+                    <td class="genre-cell">Romanticism</td>
+                    <td class="edit"><button><a href="#"><img src="images/edit16.png" alt="">Edit</a></button></td>
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name="index[3]" value="30"></td>
+                    <td class="image"><img src="images/c44.jpg" alt=""></td>
+                    <td class="title-cell">Arrangement in Grey and Black</td>
+                    <td class="artist-cell">Whistler, James Abbott   </td>
+                    <td class="year-cell">1871</td>
+                    <td class="genre-cell">Realism</td>
+                    <td class="edit"><button><a href="#"><img src="images/edit16.png" alt="">Edit</a></button></td>
+                </tr>
+                <tr>
+                    <td class="check"><input type="checkbox" name="index[4]" value="40"></td>
+                    <td class="image"><img src="images/c45.jpg" alt=""></td>
+                    <td class="title-cell">Mademoiselle Caroline Riviere</td>
+                    <td class="artist-cell">Ingres, Jean-Auguste</td>
+                    <td class="year-cell">1806</td>
+                    <td class="genre-cell">Neo-Classism</td>
+                    <td class="edit"><button><a href="#"><img src="images/edit16.png" alt="">Edit</a></button></td>
+                </tr>
+              </tbody>
+          </table>
+      </div>
+    </form>
+  </body>
+</html>

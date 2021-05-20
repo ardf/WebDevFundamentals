@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(240, 237, 234);
+}
+.box,
+.bigbox {
+  height: 70px;
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(56, 150, 238, 0.2);
+  border: 1px rgb(48, 131, 209);
+}
+.bigbox {
+  height: 500px;
+  margin-top: 20px;
+}
+.content-start {
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.content {
+  margin-left: 10px;
+}
+table{
+    max-width: 800px;
+    min-width: 80%;
+    display: block;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid rgb(48, 131, 209);
+    background-color: antiquewhite;
+}
+table caption{
+    display: block;
+    width: 100%;
+    /* margin: auto; */
+    background-color: rgb(0, 204, 255);
+    font-size: 24px;
+    font-weight: bold;
+}
+thead,tbody{
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid rgb(0, 204, 255);
+}
+
+tbody tr{
+    border-bottom: 1px solid rgb(0, 204, 255);
+}
+th{
+    font-size: 20px;
+}
+tr th{
+}
+td{
+    font-size: 14px;
+}
+#title{
+
+    width: 28% ;
+    text-align: right;
+}
+#artist{
+
+    width: 27%;
+}
+#year{
+/* left blank */
+}
+#genre{
+
+    width: 45%;
+    position: relative;
+    right: 10%;
+}
+.check{
+    width: 3%;
+}
+.image{
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 10%;
+}
+.title-cell{
+    padding-left: 5%;
+    width: 18%;
+}
+.artist-cell{
+    padding-left: 3%;
+    width: 20%;
+}
+.year-cell{
+    padding-left: 3%;
+    width: 15%;
+}
+.genre-cell{
+    width: 20%;
+}
+.edit{
+ width: 13%;
+}
